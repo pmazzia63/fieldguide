@@ -1,0 +1,346 @@
+{
+  "name": "Football américain",
+  "axes": "Terrain 109,7 × 48,8 m (zones d'en-but comprises), origine au milieu de terrain. x : axe longitudinal, l'attaque progresse vers +x et la ligne de mêlée est en x = 0 (attaque en x < 0, défense en x > 0). z : axe transversal, +z = droite de l'attaque et côté fort (tight end).",
+  "views": [
+    {
+      "id": "offense",
+      "name": "Attaque (formation en I)",
+      "shortName": "Attaque",
+      "positions": [
+        {
+          "id": "quarterback",
+          "name": "Quarterback",
+          "abbreviation": "QB",
+          "number": 12,
+          "description": "Le quarterback reçoit le snap du centre et dirige l'attaque. Il annonce les jeux, lit la défense, puis lance le ballon à un receveur ou le remet à un coureur.",
+          "role": "Meneur de l'attaque : il lit la défense et distribue le ballon.",
+          "x": -1.2,
+          "z": 0,
+          "famousPlayers": [
+            { "name": "Tom Brady", "wikipediaUrl": "https://fr.wikipedia.org/wiki/Tom_Brady" },
+            { "name": "Joe Montana", "wikipediaUrl": "https://fr.wikipedia.org/wiki/Joe_Montana" },
+            { "name": "Peyton Manning", "wikipediaUrl": "https://fr.wikipedia.org/wiki/Peyton_Manning" },
+            { "name": "Patrick Mahomes", "wikipediaUrl": "https://fr.wikipedia.org/wiki/Patrick_Mahomes" }
+          ]
+        },
+        {
+          "id": "running-back",
+          "name": "Running back",
+          "abbreviation": "RB",
+          "number": 28,
+          "description": "Placé derrière le quarterback, le running back (ou tailback) porte le ballon sur les jeux de course. Il participe aussi à la protection du quarterback et sert de cible pour des passes courtes.",
+          "role": "Porteur de balle principal sur les courses.",
+          "x": -6.5,
+          "z": 0,
+          "famousPlayers": [
+            { "name": "Walter Payton", "wikipediaUrl": "https://fr.wikipedia.org/wiki/Walter_Payton" },
+            { "name": "Emmitt Smith", "wikipediaUrl": "https://fr.wikipedia.org/wiki/Emmitt_Smith" },
+            { "name": "Barry Sanders", "wikipediaUrl": "https://fr.wikipedia.org/wiki/Barry_Sanders" }
+          ]
+        },
+        {
+          "id": "fullback",
+          "name": "Fullback",
+          "abbreviation": "FB",
+          "number": 44,
+          "description": "Aligné entre le quarterback et le running back dans la formation en I, le fullback est un joueur puissant qui ouvre le chemin au porteur de balle. Il porte parfois lui-même le ballon sur les courses courtes.",
+          "role": "Bloqueur de tête : il ouvre la voie au running back.",
+          "x": -4.5,
+          "z": 0,
+          "famousPlayers": [
+            { "name": "Jim Brown", "wikipediaUrl": "https://fr.wikipedia.org/wiki/Jim_Brown" },
+            { "name": "Larry Csonka", "wikipediaUrl": "https://fr.wikipedia.org/wiki/Larry_Csonka" },
+            { "name": "John Riggins", "wikipediaUrl": "https://fr.wikipedia.org/wiki/John_Riggins" }
+          ]
+        },
+        {
+          "id": "wide-receiver-x",
+          "name": "Wide receiver (X)",
+          "abbreviation": "WR",
+          "number": 81,
+          "description": "Le receveur X, ou split end, est aligné sur la ligne de mêlée, loin du bloc offensif côté faible. Il court des tracés précis pour se démarquer et attraper les passes, souvent face au meilleur cornerback adverse.",
+          "role": "Receveur extérieur sur la ligne : cible principale des passes.",
+          "x": -0.4,
+          "z": -18,
+          "famousPlayers": [
+            { "name": "Jerry Rice", "wikipediaUrl": "https://fr.wikipedia.org/wiki/Jerry_Rice" },
+            { "name": "Randy Moss", "wikipediaUrl": "https://fr.wikipedia.org/wiki/Randy_Moss" }
+          ]
+        },
+        {
+          "id": "wide-receiver-z",
+          "name": "Wide receiver (Z)",
+          "abbreviation": "WR",
+          "number": 11,
+          "description": "Le receveur Z, ou flanker, est aligné un pas en retrait de la ligne de mêlée, côté fort. Ce recul lui permet de se mettre en mouvement avant le snap et d'éviter le contact immédiat avec le défenseur.",
+          "role": "Receveur extérieur en retrait : mobile et polyvalent.",
+          "x": -1.4,
+          "z": 15,
+          "famousPlayers": [
+            { "name": "Terrell Owens", "wikipediaUrl": "https://fr.wikipedia.org/wiki/Terrell_Owens" },
+            { "name": "Larry Fitzgerald", "wikipediaUrl": "https://fr.wikipedia.org/wiki/Larry_Fitzgerald" }
+          ]
+        },
+        {
+          "id": "tight-end",
+          "name": "Tight end",
+          "abbreviation": "TE",
+          "number": 87,
+          "description": "Le tight end est aligné au bout de la ligne offensive et définit le côté fort de la formation. Hybride entre bloqueur et receveur, il bloque sur les courses et reçoit des passes au milieu du terrain.",
+          "role": "Hybride bloqueur/receveur qui définit le côté fort.",
+          "x": -0.4,
+          "z": 4.6,
+          "famousPlayers": [
+            { "name": "Tony Gonzalez", "wikipediaUrl": "https://fr.wikipedia.org/wiki/Tony_Gonzalez" },
+            { "name": "Rob Gronkowski", "wikipediaUrl": "https://fr.wikipedia.org/wiki/Rob_Gronkowski" },
+            { "name": "Travis Kelce", "wikipediaUrl": "https://fr.wikipedia.org/wiki/Travis_Kelce" }
+          ]
+        },
+        {
+          "id": "left-tackle",
+          "name": "Tackle gauche",
+          "abbreviation": "LT",
+          "number": 71,
+          "description": "À l'extrémité gauche de la ligne offensive, le tackle gauche protège le « côté aveugle » d'un quarterback droitier. Il affronte souvent le meilleur pass rusher adverse.",
+          "role": "Protecteur du côté aveugle du quarterback.",
+          "x": -0.4,
+          "z": -3,
+          "famousPlayers": [
+            { "name": "Anthony Muñoz", "wikipediaUrl": "https://fr.wikipedia.org/wiki/Anthony_Muñoz" },
+            { "name": "Jonathan Ogden", "wikipediaUrl": "https://fr.wikipedia.org/wiki/Jonathan_Ogden" },
+            { "name": "Walter Jones", "wikipediaUrl": "https://fr.wikipedia.org/wiki/Walter_Jones" }
+          ]
+        },
+        {
+          "id": "left-guard",
+          "name": "Guard gauche",
+          "abbreviation": "LG",
+          "number": 65,
+          "description": "Entre le centre et le tackle gauche, le guard bloque les defensive tackles. Sur certains jeux de course, il quitte sa position pour aller bloquer de l'autre côté (pull).",
+          "role": "Bloqueur intérieur : ouvre les brèches au centre.",
+          "x": -0.4,
+          "z": -1.5,
+          "famousPlayers": [
+            { "name": "Gene Upshaw", "wikipediaUrl": "https://fr.wikipedia.org/wiki/Gene_Upshaw" },
+            { "name": "Alan Faneca", "wikipediaUrl": "https://fr.wikipedia.org/wiki/Alan_Faneca" },
+            { "name": "Steve Hutchinson", "wikipediaUrl": "https://fr.wikipedia.org/wiki/Steve_Hutchinson" }
+          ]
+        },
+        {
+          "id": "center",
+          "name": "Centre",
+          "abbreviation": "C",
+          "number": 55,
+          "description": "Le centre lance chaque action en passant le ballon entre ses jambes au quarterback (snap). Il annonce les protections à la ligne offensive puis bloque le joueur placé en face de lui.",
+          "role": "Il met le ballon en jeu et coordonne la ligne offensive.",
+          "x": -0.4,
+          "z": 0,
+          "famousPlayers": [
+            { "name": "Mike Webster", "wikipediaUrl": "https://fr.wikipedia.org/wiki/Mike_Webster" },
+            { "name": "Dwight Stephenson", "wikipediaUrl": "https://fr.wikipedia.org/wiki/Dwight_Stephenson" },
+            { "name": "Jason Kelce", "wikipediaUrl": "https://fr.wikipedia.org/wiki/Jason_Kelce" }
+          ]
+        },
+        {
+          "id": "right-guard",
+          "name": "Guard droit",
+          "abbreviation": "RG",
+          "number": 66,
+          "description": "Symétrique du guard gauche, le guard droit bloque à l'intérieur entre le centre et le tackle droit, côté fort de la formation.",
+          "role": "Bloqueur intérieur côté fort.",
+          "x": -0.4,
+          "z": 1.5,
+          "famousPlayers": [
+            { "name": "Larry Allen", "wikipediaUrl": "https://fr.wikipedia.org/wiki/Larry_Allen" },
+            { "name": "Randall McDaniel", "wikipediaUrl": "https://fr.wikipedia.org/wiki/Randall_McDaniel" }
+          ]
+        },
+        {
+          "id": "right-tackle",
+          "name": "Tackle droit",
+          "abbreviation": "RT",
+          "number": 76,
+          "description": "Le tackle droit ferme le côté droit de la ligne offensive. Souvent plus orienté vers le jeu de course, il doit aussi contenir les defensive ends en protection de passe.",
+          "role": "Bloqueur extérieur côté fort, solide sur les courses.",
+          "x": -0.4,
+          "z": 3,
+          "famousPlayers": [
+            { "name": "Jackie Slater", "wikipediaUrl": "https://fr.wikipedia.org/wiki/Jackie_Slater" },
+            { "name": "Forrest Gregg", "wikipediaUrl": "https://fr.wikipedia.org/wiki/Forrest_Gregg" },
+            { "name": "Lane Johnson", "wikipediaUrl": "https://fr.wikipedia.org/wiki/Lane_Johnson" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "defense",
+      "name": "Défense (4-3)",
+      "shortName": "Défense",
+      "positions": [
+        {
+          "id": "defensive-end-strong",
+          "name": "Defensive end (côté fort)",
+          "abbreviation": "DE",
+          "number": 94,
+          "description": "À l'extrémité de la ligne défensive, face au tight end, le defensive end doit contenir les courses vers l'extérieur et mettre la pression sur le quarterback.",
+          "role": "Contient les courses extérieures et presse le quarterback.",
+          "x": 1,
+          "z": 5.4,
+          "famousPlayers": [
+            { "name": "Reggie White", "wikipediaUrl": "https://fr.wikipedia.org/wiki/Reggie_White" },
+            { "name": "Bruce Smith", "wikipediaUrl": "https://fr.wikipedia.org/wiki/Bruce_Smith" },
+            { "name": "Michael Strahan", "wikipediaUrl": "https://fr.wikipedia.org/wiki/Michael_Strahan" }
+          ]
+        },
+        {
+          "id": "defensive-end-weak",
+          "name": "Defensive end (côté faible)",
+          "abbreviation": "DE",
+          "number": 91,
+          "description": "Côté faible, le defensive end attaque souvent le côté aveugle du quarterback. C'est généralement le pass rusher le plus rapide de l'équipe, spécialiste des sacks.",
+          "role": "Pass rusher : il fond sur le quarterback par le côté aveugle.",
+          "x": 1,
+          "z": -4.2,
+          "famousPlayers": [
+            { "name": "Deacon Jones", "wikipediaUrl": "https://fr.wikipedia.org/wiki/Deacon_Jones" },
+            { "name": "J. J. Watt", "wikipediaUrl": "https://fr.wikipedia.org/wiki/J._J._Watt" },
+            { "name": "Myles Garrett", "wikipediaUrl": "https://fr.wikipedia.org/wiki/Myles_Garrett" }
+          ]
+        },
+        {
+          "id": "nose-tackle",
+          "name": "Nose tackle",
+          "abbreviation": "NT",
+          "number": 98,
+          "description": "Aligné face au centre, le nose tackle est le joueur le plus massif de la défense. Il absorbe les doubles blocages pour libérer les linebackers et bouche le milieu contre la course.",
+          "role": "Verrou central : il occupe les bloqueurs au milieu.",
+          "x": 1,
+          "z": 0.6,
+          "famousPlayers": [
+            { "name": "Vince Wilfork", "wikipediaUrl": "https://fr.wikipedia.org/wiki/Vince_Wilfork" },
+            { "name": "Haloti Ngata", "wikipediaUrl": "https://fr.wikipedia.org/wiki/Haloti_Ngata" },
+            { "name": "Merlin Olsen", "wikipediaUrl": "https://fr.wikipedia.org/wiki/Merlin_Olsen" }
+          ]
+        },
+        {
+          "id": "defensive-tackle",
+          "name": "Defensive tackle",
+          "abbreviation": "DT",
+          "number": 93,
+          "description": "Placé sur l'épaule extérieure du guard (alignement « 3-technique »), ce defensive tackle cherche à pénétrer rapidement dans le champ arrière pour perturber courses et passes.",
+          "role": "Pénétrateur intérieur : il perturbe l'action dès le snap.",
+          "x": 1,
+          "z": -2.2,
+          "famousPlayers": [
+            { "name": "Aaron Donald", "wikipediaUrl": "https://fr.wikipedia.org/wiki/Aaron_Donald" },
+            { "name": "Warren Sapp", "wikipediaUrl": "https://fr.wikipedia.org/wiki/Warren_Sapp" },
+            { "name": "Alan Page", "wikipediaUrl": "https://fr.wikipedia.org/wiki/Alan_Page" }
+          ]
+        },
+        {
+          "id": "strongside-linebacker",
+          "name": "Linebacker côté fort (SAM)",
+          "abbreviation": "OLB",
+          "number": 56,
+          "description": "Le linebacker SAM s'aligne face au tight end. Il doit tenir le bloc du tight end contre la course et le couvrir sur les passes.",
+          "role": "Défenseur du côté fort, face au tight end.",
+          "x": 4,
+          "z": 5.5,
+          "famousPlayers": [
+            { "name": "Von Miller", "wikipediaUrl": "https://fr.wikipedia.org/wiki/Von_Miller" },
+            { "name": "Derrick Thomas", "wikipediaUrl": "https://fr.wikipedia.org/wiki/Derrick_Thomas_(football_américain)" }
+          ]
+        },
+        {
+          "id": "middle-linebacker",
+          "name": "Linebacker central (MIKE)",
+          "abbreviation": "MLB",
+          "number": 52,
+          "description": "Au cœur de la défense, le middle linebacker reçoit les consignes du staff, ajuste l'alignement de ses coéquipiers et plaque les porteurs de balle sur toute la largeur du terrain.",
+          "role": "Quarterback de la défense : il lit le jeu et plaque.",
+          "x": 4.5,
+          "z": 0,
+          "famousPlayers": [
+            { "name": "Ray Lewis", "wikipediaUrl": "https://fr.wikipedia.org/wiki/Ray_Lewis" },
+            { "name": "Dick Butkus", "wikipediaUrl": "https://fr.wikipedia.org/wiki/Dick_Butkus" },
+            { "name": "Mike Singletary", "wikipediaUrl": "https://fr.wikipedia.org/wiki/Mike_Singletary" },
+            { "name": "Brian Urlacher", "wikipediaUrl": "https://fr.wikipedia.org/wiki/Brian_Urlacher" }
+          ]
+        },
+        {
+          "id": "weakside-linebacker",
+          "name": "Linebacker côté faible (WILL)",
+          "abbreviation": "OLB",
+          "number": 54,
+          "description": "Le linebacker WILL, côté faible, est souvent le plus rapide des linebackers. Moins exposé aux blocs, il poursuit les porteurs de balle d'un bout à l'autre du terrain et couvre les passes courtes.",
+          "role": "Chasseur rapide : poursuite et couverture côté faible.",
+          "x": 4.5,
+          "z": -4.5,
+          "famousPlayers": [
+            { "name": "Derrick Brooks", "wikipediaUrl": "https://fr.wikipedia.org/wiki/Derrick_Brooks" },
+            { "name": "Lavonte David", "wikipediaUrl": "https://fr.wikipedia.org/wiki/Lavonte_David" }
+          ]
+        },
+        {
+          "id": "cornerback-weak",
+          "name": "Cornerback (côté faible)",
+          "abbreviation": "CB",
+          "number": 24,
+          "description": "Face au receveur X, ce cornerback le suit dans ses tracés pour empêcher la réception. Vitesse, réflexes et jeu de jambes sont essentiels pour couvrir en un contre un.",
+          "role": "Couverture en un contre un du receveur X.",
+          "x": 6.5,
+          "z": -18,
+          "famousPlayers": [
+            { "name": "Deion Sanders", "wikipediaUrl": "https://fr.wikipedia.org/wiki/Deion_Sanders" },
+            { "name": "Darrelle Revis", "wikipediaUrl": "https://fr.wikipedia.org/wiki/Darrelle_Revis" },
+            { "name": "Rod Woodson", "wikipediaUrl": "https://fr.wikipedia.org/wiki/Rod_Woodson" }
+          ]
+        },
+        {
+          "id": "cornerback-strong",
+          "name": "Cornerback (côté fort)",
+          "abbreviation": "CB",
+          "number": 21,
+          "description": "Face au receveur Z côté fort, ce cornerback couvre les passes mais doit aussi participer à la défense contre les courses extérieures.",
+          "role": "Couverture du receveur Z et soutien contre la course.",
+          "x": 6.5,
+          "z": 15,
+          "famousPlayers": [
+            { "name": "Champ Bailey", "wikipediaUrl": "https://fr.wikipedia.org/wiki/Champ_Bailey" },
+            { "name": "Charles Woodson", "wikipediaUrl": "https://fr.wikipedia.org/wiki/Charles_Woodson" },
+            { "name": "Jalen Ramsey", "wikipediaUrl": "https://fr.wikipedia.org/wiki/Jalen_Ramsey" }
+          ]
+        },
+        {
+          "id": "free-safety",
+          "name": "Free safety",
+          "abbreviation": "FS",
+          "number": 31,
+          "description": "Dernier rempart de la défense, le free safety se place en profondeur. Il lit le regard du quarterback pour intercepter les passes longues et empêcher tout gros gain.",
+          "role": "Dernier rempart : couverture profonde et interceptions.",
+          "x": 13,
+          "z": -2,
+          "famousPlayers": [
+            { "name": "Ed Reed", "wikipediaUrl": "https://fr.wikipedia.org/wiki/Ed_Reed" },
+            { "name": "Ronnie Lott", "wikipediaUrl": "https://fr.wikipedia.org/wiki/Ronnie_Lott" },
+            { "name": "Brian Dawkins", "wikipediaUrl": "https://fr.wikipedia.org/wiki/Brian_Dawkins" }
+          ]
+        },
+        {
+          "id": "strong-safety",
+          "name": "Strong safety",
+          "abbreviation": "SS",
+          "number": 33,
+          "description": "Aligné côté fort, plus près de la ligne que le free safety, le strong safety est un plaqueur physique qui soutient la défense contre la course et couvre le tight end.",
+          "role": "Safety physique : soutien contre la course côté fort.",
+          "x": 9,
+          "z": 6,
+          "famousPlayers": [
+            { "name": "Troy Polamalu", "wikipediaUrl": "https://fr.wikipedia.org/wiki/Troy_Polamalu" },
+            { "name": "Sean Taylor", "wikipediaUrl": "https://fr.wikipedia.org/wiki/Sean_Taylor" }
+          ]
+        }
+      ]
+    }
+  ]
+}

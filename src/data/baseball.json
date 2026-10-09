@@ -1,0 +1,165 @@
+{
+  "name": "Baseball",
+  "axes": "Origine au centre du losange (bases distantes de 27,43 m). x : axe marbre → champ centre, le marbre est en x = -19.4 et le deuxième but en x = +19.4. z : premier but côté +z (z = +19.4), troisième but côté -z. Équipe en défense, plus le frappeur désigné dans la boîte du frappeur.",
+  "views": [
+    {
+      "id": "defense",
+      "name": "Défense",
+      "shortName": "Défense",
+      "positions": [
+        {
+          "id": "pitcher",
+          "name": "Lanceur",
+          "abbreviation": "P",
+          "number": 1,
+          "description": "Depuis le monticule, à 18,44 m du marbre, le lanceur met chaque action en jeu. Il varie vitesse, effet et placement de ses lancers pour retirer les frappeurs, souvent sur prises.",
+          "role": "Moteur de la défense : il lance chaque balle face au frappeur.",
+          "x": -0.96,
+          "z": 0,
+          "famousPlayers": [
+            { "name": "Sandy Koufax", "wikipediaUrl": "https://fr.wikipedia.org/wiki/Sandy_Koufax" },
+            { "name": "Nolan Ryan", "wikipediaUrl": "https://fr.wikipedia.org/wiki/Nolan_Ryan" },
+            { "name": "Greg Maddux", "wikipediaUrl": "https://fr.wikipedia.org/wiki/Greg_Maddux" }
+          ]
+        },
+        {
+          "id": "catcher",
+          "name": "Receveur",
+          "abbreviation": "C",
+          "number": 2,
+          "description": "Accroupi derrière le marbre, le receveur réceptionne les lancers, choisit avec le lanceur le type de balle par signes et protège le marbre. C'est le seul défenseur qui voit tout le terrain devant lui.",
+          "role": "Stratège défensif : il appelle les lancers et garde le marbre.",
+          "x": -20.6,
+          "z": 0,
+          "famousPlayers": [
+            { "name": "Johnny Bench", "wikipediaUrl": "https://fr.wikipedia.org/wiki/Johnny_Bench" },
+            { "name": "Yogi Berra", "wikipediaUrl": "https://fr.wikipedia.org/wiki/Yogi_Berra" },
+            { "name": "Mike Piazza", "wikipediaUrl": "https://fr.wikipedia.org/wiki/Mike_Piazza" },
+            { "name": "Iván Rodríguez", "wikipediaUrl": "https://fr.wikipedia.org/wiki/Iván_Rodríguez" }
+          ]
+        },
+        {
+          "id": "first-base",
+          "name": "Joueur de premier but",
+          "abbreviation": "1B",
+          "number": 3,
+          "description": "Le joueur de premier but reçoit la plupart des relais de l'avant-champ pour retirer le coureur. Une grande envergure et des mains sûres sont essentielles ; c'est souvent un puissant frappeur.",
+          "role": "Cible des relais : il conclut la majorité des retraits.",
+          "x": 2.5,
+          "z": 17,
+          "famousPlayers": [
+            { "name": "Lou Gehrig", "wikipediaUrl": "https://fr.wikipedia.org/wiki/Lou_Gehrig" },
+            { "name": "Albert Pujols", "wikipediaUrl": "https://fr.wikipedia.org/wiki/Albert_Pujols" }
+          ]
+        },
+        {
+          "id": "second-base",
+          "name": "Joueur de deuxième but",
+          "abbreviation": "2B",
+          "number": 4,
+          "description": "Placé entre le premier et le deuxième but, il couvre le côté droit de l'avant-champ. Agile et rapide, il pivote sur les doubles jeux et couvre le deuxième but lors des vols.",
+          "role": "Pivot du double jeu côté droit de l'avant-champ.",
+          "x": 12,
+          "z": 11,
+          "famousPlayers": [
+            { "name": "Jackie Robinson", "wikipediaUrl": "https://fr.wikipedia.org/wiki/Jackie_Robinson" },
+            { "name": "Rogers Hornsby", "wikipediaUrl": "https://fr.wikipedia.org/wiki/Rogers_Hornsby" },
+            { "name": "Joe Morgan", "wikipediaUrl": "https://fr.wikipedia.org/wiki/Joe_Morgan" },
+            { "name": "Ryne Sandberg", "wikipediaUrl": "https://fr.wikipedia.org/wiki/Ryne_Sandberg" }
+          ]
+        },
+        {
+          "id": "third-base",
+          "name": "Joueur de troisième but",
+          "abbreviation": "3B",
+          "number": 5,
+          "description": "Surnommé le « coin chaud », le troisième but fait face aux balles frappées les plus violentes. Réflexes et bras puissant sont indispensables pour relayer jusqu'au premier but.",
+          "role": "Gardien du coin chaud : réflexes et bras puissant.",
+          "x": 2.5,
+          "z": -17,
+          "famousPlayers": [
+            { "name": "Mike Schmidt", "wikipediaUrl": "https://fr.wikipedia.org/wiki/Mike_Schmidt" },
+            { "name": "Brooks Robinson", "wikipediaUrl": "https://fr.wikipedia.org/wiki/Brooks_Robinson" },
+            { "name": "George Brett", "wikipediaUrl": "https://fr.wikipedia.org/wiki/George_Brett" }
+          ]
+        },
+        {
+          "id": "shortstop",
+          "name": "Arrêt-court",
+          "abbreviation": "SS",
+          "number": 6,
+          "description": "Entre le deuxième et le troisième but, l'arrêt-court couvre la zone la plus sollicitée de l'avant-champ. C'est souvent le meilleur défenseur de l'équipe, alliant portée, vitesse et puissance de bras.",
+          "role": "Leader de l'avant-champ : il couvre le plus de terrain.",
+          "x": 12,
+          "z": -11,
+          "famousPlayers": [
+            { "name": "Derek Jeter", "wikipediaUrl": "https://fr.wikipedia.org/wiki/Derek_Jeter" },
+            { "name": "Cal Ripken Jr.", "wikipediaUrl": "https://fr.wikipedia.org/wiki/Cal_Ripken,_Jr." },
+            { "name": "Ozzie Smith", "wikipediaUrl": "https://fr.wikipedia.org/wiki/Ozzie_Smith" }
+          ]
+        },
+        {
+          "id": "left-field",
+          "name": "Voltigeur de gauche",
+          "abbreviation": "LF",
+          "number": 7,
+          "description": "Le voltigeur de gauche couvre la partie gauche du champ extérieur, où les frappeurs droitiers envoient souvent la balle. Il capte les chandelles et renvoie rapidement la balle vers l'avant-champ.",
+          "role": "Couverture du champ gauche et relais vers le troisième but.",
+          "x": 57.6,
+          "z": -35.9,
+          "famousPlayers": [
+            { "name": "Ted Williams", "wikipediaUrl": "https://fr.wikipedia.org/wiki/Ted_Williams" },
+            { "name": "Barry Bonds", "wikipediaUrl": "https://fr.wikipedia.org/wiki/Barry_Bonds" },
+            { "name": "Rickey Henderson", "wikipediaUrl": "https://fr.wikipedia.org/wiki/Rickey_Henderson" }
+          ]
+        },
+        {
+          "id": "center-field",
+          "name": "Voltigeur de centre",
+          "abbreviation": "CF",
+          "number": 8,
+          "description": "Le voltigeur de centre couvre la plus grande surface du terrain. Généralement le plus rapide des voltigeurs, il dirige le champ extérieur et a priorité sur les balles entre deux joueurs.",
+          "role": "Patron du champ extérieur : vitesse et lecture des trajectoires.",
+          "x": 75.6,
+          "z": 0,
+          "famousPlayers": [
+            { "name": "Willie Mays", "wikipediaUrl": "https://fr.wikipedia.org/wiki/Willie_Mays" },
+            { "name": "Mickey Mantle", "wikipediaUrl": "https://fr.wikipedia.org/wiki/Mickey_Mantle" },
+            { "name": "Ken Griffey Jr.", "wikipediaUrl": "https://fr.wikipedia.org/wiki/Ken_Griffey_Jr." }
+          ]
+        },
+        {
+          "id": "right-field",
+          "name": "Voltigeur de droite",
+          "abbreviation": "RF",
+          "number": 9,
+          "description": "Le voltigeur de droite doit posséder le bras le plus puissant du champ extérieur : ses relais vers le troisième but sont les plus longs. Il couvre la partie droite du champ extérieur.",
+          "role": "Le canon du champ extérieur : longs relais vers les bases.",
+          "x": 57.6,
+          "z": 35.9,
+          "famousPlayers": [
+            { "name": "Babe Ruth", "wikipediaUrl": "https://fr.wikipedia.org/wiki/Babe_Ruth" },
+            { "name": "Hank Aaron", "wikipediaUrl": "https://fr.wikipedia.org/wiki/Hank_Aaron" },
+            { "name": "Roberto Clemente", "wikipediaUrl": "https://fr.wikipedia.org/wiki/Roberto_Clemente" },
+            { "name": "Ichirō Suzuki", "wikipediaUrl": "https://fr.wikipedia.org/wiki/Ichirō_Suzuki" }
+          ]
+        },
+        {
+          "id": "designated-hitter",
+          "name": "Frappeur désigné",
+          "abbreviation": "DH",
+          "number": 10,
+          "description": "Le frappeur désigné frappe à la place du lanceur mais ne joue pas en défense. Spécialiste offensif, il est représenté ici dans la boîte du frappeur, au marbre.",
+          "role": "Spécialiste de la frappe, sans rôle défensif.",
+          "x": -19.4,
+          "z": -1.2,
+          "famousPlayers": [
+            { "name": "David Ortiz", "wikipediaUrl": "https://fr.wikipedia.org/wiki/David_Ortiz" },
+            { "name": "Edgar Martínez", "wikipediaUrl": "https://fr.wikipedia.org/wiki/Edgar_Martínez" },
+            { "name": "Shohei Ohtani", "wikipediaUrl": "https://fr.wikipedia.org/wiki/Shohei_Ohtani" }
+          ]
+        }
+      ]
+    }
+  ]
+}

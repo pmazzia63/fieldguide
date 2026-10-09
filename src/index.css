@@ -1,5 +1,29 @@
 @import 'tailwindcss';
 
+@theme {
+  --animate-sheet-up: sheet-up 250ms ease-out;
+  --animate-slide-left: slide-left 250ms ease-out;
+  --animate-slide-right: slide-right 250ms ease-out;
+
+  @keyframes sheet-up {
+    from {
+      transform: translateY(100%);
+    }
+  }
+  @keyframes slide-left {
+    from {
+      opacity: 0;
+      transform: translateX(-1.5rem);
+    }
+  }
+  @keyframes slide-right {
+    from {
+      opacity: 0;
+      transform: translateX(1.5rem);
+    }
+  }
+}
+
 html,
 body,
 #root {

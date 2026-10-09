@@ -1,0 +1,89 @@
+{
+  "name": "Basket-ball",
+  "axes": "Terrain FIBA 28 × 15 m. x : axe longitudinal (panier à panier), l'équipe attaque vers +x, panier attaqué en x = +12.6. z : axe transversal. Attaque placée sur demi-terrain.",
+  "views": [
+    {
+      "id": "team",
+      "name": "Équipe en attaque placée",
+      "shortName": "Équipe",
+      "positions": [
+        {
+          "id": "point-guard",
+          "name": "Meneur",
+          "abbreviation": "PG",
+          "number": 1,
+          "description": "Le meneur remonte le ballon et organise l'attaque. Souvent le plus petit joueur de l'équipe, il se distingue par sa vision du jeu, son dribble et sa qualité de passe.",
+          "role": "Chef d'orchestre : il lance les systèmes et distribue le jeu.",
+          "x": 4.8,
+          "z": 0,
+          "famousPlayers": [
+            { "name": "Magic Johnson", "wikipediaUrl": "https://fr.wikipedia.org/wiki/Magic_Johnson" },
+            { "name": "Stephen Curry", "wikipediaUrl": "https://fr.wikipedia.org/wiki/Stephen_Curry" },
+            { "name": "Tony Parker", "wikipediaUrl": "https://fr.wikipedia.org/wiki/Tony_Parker" }
+          ]
+        },
+        {
+          "id": "shooting-guard",
+          "name": "Arrière",
+          "abbreviation": "SG",
+          "number": 2,
+          "description": "L'arrière évolue sur l'aile et constitue souvent la principale menace offensive extérieure. Il doit savoir tirer à mi-distance et à trois points, attaquer le cercle et défendre sur les meilleurs extérieurs adverses.",
+          "role": "Marqueur extérieur : il crée et convertit des tirs.",
+          "x": 8,
+          "z": -5.8,
+          "famousPlayers": [
+            { "name": "Michael Jordan", "wikipediaUrl": "https://fr.wikipedia.org/wiki/Michael_Jordan" },
+            { "name": "Kobe Bryant", "wikipediaUrl": "https://fr.wikipedia.org/wiki/Kobe_Bryant" },
+            { "name": "Dwyane Wade", "wikipediaUrl": "https://fr.wikipedia.org/wiki/Dwyane_Wade" }
+          ]
+        },
+        {
+          "id": "small-forward",
+          "name": "Ailier",
+          "abbreviation": "SF",
+          "number": 3,
+          "description": "L'ailier est le joueur le plus polyvalent : assez grand pour jouer près du panier, assez mobile pour tirer de loin et défendre à l'extérieur. Il occupe souvent l'aile opposée ou le corner.",
+          "role": "Joueur polyvalent : il marque, rebondit et défend sur plusieurs postes.",
+          "x": 11.6,
+          "z": 6.6,
+          "famousPlayers": [
+            { "name": "LeBron James", "wikipediaUrl": "https://fr.wikipedia.org/wiki/LeBron_James" },
+            { "name": "Larry Bird", "wikipediaUrl": "https://fr.wikipedia.org/wiki/Larry_Bird" },
+            { "name": "Kevin Durant", "wikipediaUrl": "https://fr.wikipedia.org/wiki/Kevin_Durant" }
+          ]
+        },
+        {
+          "id": "power-forward",
+          "name": "Ailier fort",
+          "abbreviation": "PF",
+          "number": 4,
+          "description": "L'ailier fort joue dans la raquette et autour de la ligne des lancers francs. Physique, il prend des rebonds, pose des écrans et, dans le jeu moderne, peut écarter le terrain avec un tir extérieur.",
+          "role": "Intérieur mobile : écrans, rebonds et jeu près du cercle.",
+          "x": 8.2,
+          "z": 2.45,
+          "famousPlayers": [
+            { "name": "Tim Duncan", "wikipediaUrl": "https://fr.wikipedia.org/wiki/Tim_Duncan" },
+            { "name": "Dirk Nowitzki", "wikipediaUrl": "https://fr.wikipedia.org/wiki/Dirk_Nowitzki" },
+            { "name": "Karl Malone", "wikipediaUrl": "https://fr.wikipedia.org/wiki/Karl_Malone" }
+          ]
+        },
+        {
+          "id": "center",
+          "name": "Pivot",
+          "abbreviation": "C",
+          "number": 5,
+          "description": "Le pivot est généralement le joueur le plus grand. Il joue dos au panier près du cercle, protège la raquette en défense, contre les tirs et domine le rebond.",
+          "role": "Point d'ancrage : protection du cercle et jeu au poste bas.",
+          "x": 11.8,
+          "z": -2.2,
+          "famousPlayers": [
+            { "name": "Kareem Abdul-Jabbar", "wikipediaUrl": "https://fr.wikipedia.org/wiki/Kareem_Abdul-Jabbar" },
+            { "name": "Shaquille O'Neal", "wikipediaUrl": "https://fr.wikipedia.org/wiki/Shaquille_O%27Neal" },
+            { "name": "Hakeem Olajuwon", "wikipediaUrl": "https://fr.wikipedia.org/wiki/Hakeem_Olajuwon" },
+            { "name": "Bill Russell", "wikipediaUrl": "https://fr.wikipedia.org/wiki/Bill_Russell" }
+          ]
+        }
+      ]
+    }
+  ]
+}
